@@ -21,7 +21,6 @@
           <element id="library" level="project" name="Maven: org.onehippo.cms7.hst.components:hst-core:5.3.0" />
           <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.7" />
           <element id="library" level="project" name="Maven: commons-jexl:commons-jexl:1.1" />
-          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
           <element id="library" level="project" name="Maven: commons-configuration:commons-configuration:1.7" />
           <element id="library" level="project" name="Maven: commons-digester:commons-digester:1.8.1" />
           <element id="library" level="project" name="Maven: org.apache.james:apache-mime4j:0.6" />
@@ -39,7 +38,6 @@
           <element id="library" level="project" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.8.11" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.11" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.11" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.8.11" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.11" />
           <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.17" />
@@ -96,6 +94,18 @@
           <element id="library" level="project" name="Maven: org.apache.jackrabbit:jackrabbit-spi-commons:2.16.1-h1" />
           <element id="library" level="project" name="Maven: org.apache.jackrabbit:jackrabbit-spi:2.16.1-h1" />
           <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.50" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.2.50" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.2.50" />
+          <element id="library" level="project" name="Maven: org.jetbrains:annotations:13.0" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.50" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-reflect:1.2.50" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-kotlin:2.9.4.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.5" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.9" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:fluent-hc:4.5.5" />
         </element>
       </element>
       <element id="directory" name="META-INF">
