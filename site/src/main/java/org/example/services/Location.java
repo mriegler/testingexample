@@ -20,9 +20,11 @@ import java.io.IOException;
 public class Location {
     private final String api;
     private final static Logger log = LoggerFactory.getLogger(Location.class);
+    private final ObjectMapper objectMapper;
 
-    public Location(@Value("${location.api}") String api) {
+    public Location(@Value("${location.api}") String api, @Autowired ObjectMapper objectMapper) {
         this.api = api;
+        this.objectMapper = objectMapper;
     }
 
     public LocationInformation fromIp(final String ip) {
@@ -37,7 +39,7 @@ public class Location {
         try {
             final String jsonString = Request.Get(url).execute().returnContent().asString();
 
-            final LocationInformation result = new ObjectMapper().registerModule(new KotlinModule())
+            final LocationInformation result = objectMapper
                     .readValue(jsonString, LocationInformation.class);
 
             return result;

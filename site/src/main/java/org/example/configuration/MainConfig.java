@@ -1,5 +1,7 @@
 package org.example.configuration;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.module.kotlin.KotlinModule;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.InitializingBean;
@@ -19,6 +21,11 @@ public class MainConfig implements InitializingBean {
     @Bean
     public static PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer() {
         return new PropertySourcesPlaceholderConfigurer();
+    }
+
+    @Bean
+    public ObjectMapper provideObjectMapper() {
+        return new ObjectMapper().registerModule(new KotlinModule());
     }
 
     @Override
