@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="testingexample-cms" />
+        <module name="testingexample-essentials" />
+        <module name="testingexample-repository-data-application" />
+        <module name="testingexample-repository-data-development" />
+        <module name="testingexample-repository-data-webfiles" />
+        <module name="testingexample-site" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="testingexample" target="1.5" />
+      <module name="testingexample-cms" target="1.8" />
+      <module name="testingexample-essentials" target="1.8" />
+      <module name="testingexample-repository-data" target="1.5" />
+      <module name="testingexample-repository-data-application" target="1.8" />
+      <module name="testingexample-repository-data-development" target="1.8" />
+      <module name="testingexample-repository-data-webfiles" target="1.8" />
+      <module name="testingexample-site" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

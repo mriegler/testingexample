@@ -1,0 +1,153 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="testingexample-essentials:war exploded">
+    <output-path>$PROJECT_DIR$/essentials/target/essentials</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="testingexample-essentials" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-sdk-api:4.3.0" />
+          <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-sdk-implementation:4.3.0" />
+          <element id="library" level="project" name="Maven: org.dom4j:dom4j:2.1.0" />
+          <element id="library" level="project" name="Maven: jaxen:jaxen:1.1.6" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-services-contenttype:4.3.0" />
+          <element id="library" level="project" name="Maven: io.swagger:swagger-annotations:1.5.16" />
+          <element id="library" level="project" name="Maven: io.swagger:swagger-jaxrs:1.5.16" />
+          <element id="library" level="project" name="Maven: io.swagger:swagger-core:1.5.16" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.9" />
+          <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.17" />
+          <element id="library" level="project" name="Maven: io.swagger:swagger-models:1.5.16" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.reflections:reflections:0.9.11" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.21.0-GA" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:22.0" />
+          <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:1.3.9" />
+          <element id="library" level="project" name="Maven: com.google.errorprone:error_prone_annotations:2.0.18" />
+          <element id="library" level="project" name="Maven: com.google.j2objc:j2objc-annotations:1.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" />
+          <element id="library" level="project" name="Maven: com.github.spullara.mustache.java:compiler:0.8.16" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-model:3.2.5" />
+          <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-utils:3.0.20" />
+          <element id="library" level="project" name="Maven: org.apache.maven.archetype:archetype-common:3.0.1" />
+          <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
+          <element id="library" level="project" name="Maven: jdom:jdom:1.0" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-core:3.0" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-repository-metadata:3.0" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-plugin-api:3.0" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-model-builder:3.0" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-aether-provider:3.0" />
+          <element id="library" level="project" name="Maven: org.sonatype.aether:aether-impl:1.7" />
+          <element id="library" level="project" name="Maven: org.sonatype.aether:aether-spi:1.7" />
+          <element id="library" level="project" name="Maven: org.sonatype.aether:aether-api:1.7" />
+          <element id="library" level="project" name="Maven: org.sonatype.aether:aether-util:1.7" />
+          <element id="library" level="project" name="Maven: org.sonatype.sisu:sisu-inject-plexus:1.4.2" />
+          <element id="library" level="project" name="Maven: org.sonatype.sisu:sisu-inject-bean:1.4.2" />
+          <element id="library" level="project" name="Maven: org.sonatype.sisu:sisu-guice:noaop:2.1.7" />
+          <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-interpolation:1.14" />
+          <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-classworlds:2.2.3" />
+          <element id="library" level="project" name="Maven: org.sonatype.plexus:plexus-sec-dispatcher:1.3" />
+          <element id="library" level="project" name="Maven: org.sonatype.plexus:plexus-cipher:1.4" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-artifact:3.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.15.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.15.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.15.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.15.RELEASE" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-repository-connector:5.3.0" />
+          <element id="library" level="project" name="Maven: org.apache.jackrabbit:jackrabbit-api:2.16.1-h1" />
+          <element id="library" level="project" name="Maven: org.apache.jackrabbit:jackrabbit-jcr-rmi:2.16.1-h1" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-repository-utilities:5.3.0" />
+          <element id="library" level="project" name="Maven: org.apache.jackrabbit:jackrabbit-jcr-commons:2.16.1-h1" />
+          <element id="library" level="project" name="Maven: org.apache.jackrabbit:jackrabbit-spi-commons:2.16.1-h1" />
+          <element id="library" level="project" name="Maven: org.apache.jackrabbit:jackrabbit-spi:2.16.1-h1" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.2" />
+          <element id="library" level="project" name="Maven: net.sf.json-lib:json-lib:jdk15:2.4" />
+          <element id="library" level="project" name="Maven: net.sf.ezmorph:ezmorph:1.0.6" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.9.3" />
+          <element id="library" level="project" name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.10.0" />
+          <element id="library" level="project" name="Maven: org.eclipse.core:org.eclipse.core.resources:3.7.100" />
+          <element id="library" level="project" name="Maven: org.eclipse.core:org.eclipse.core.expressions:3.4.300" />
+          <element id="library" level="project" name="Maven: org.eclipse.core:org.eclipse.core.runtime:3.7.0" />
+          <element id="library" level="project" name="Maven: org.eclipse.osgi:org.eclipse.osgi:3.7.1" />
+          <element id="library" level="project" name="Maven: org.eclipse.equinox:org.eclipse.equinox.common:3.6.0" />
+          <element id="library" level="project" name="Maven: org.eclipse.core:org.eclipse.core.jobs:3.5.100" />
+          <element id="library" level="project" name="Maven: org.eclipse.equinox:org.eclipse.equinox.registry:3.5.101" />
+          <element id="library" level="project" name="Maven: org.eclipse.equinox:org.eclipse.equinox.preferences:3.4.1" />
+          <element id="library" level="project" name="Maven: org.eclipse.core:org.eclipse.core.contenttype:3.4.100" />
+          <element id="library" level="project" name="Maven: org.eclipse.core:org.eclipse.core.filesystem:1.3.100" />
+          <element id="library" level="project" name="Maven: org.eclipse.text:org.eclipse.text:3.5.101" />
+          <element id="library" level="project" name="Maven: org.eclipse.core:org.eclipse.core.commands:3.6.0" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.5" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.5" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-skeleton-package:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-banner-and-carousel:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-blog:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-content-blocks:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-document-wizard:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-tagging:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-events:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-faq:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-image-component:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-list:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-menu:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-news:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-poll:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-related-documents:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-robots:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-search:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-seo:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-sitemap:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-simple-content:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-taxonomy:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-urlrewriter:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-video:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-gallery-manager:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-bean-writer:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-template-query-generator:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-rest-services:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-selection:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-google-maps:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-crisp:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-personalization:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-bloomreach-connector:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-commerce-detail:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-commerce-more-like-this:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-commerce-product-grid:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-commerce-search-box:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-commerce-search-results-category:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-commerce-search-results-products:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-projects:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-lucene-index-exporter:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-relevance:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-relevance-collectors-bundle:4.3.0" />
+          <element id="library" level="project" name="Maven: org.onehippo.cms7:hippo-essentials-plugin-enterprise-project:4.3.0" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-frontend-jaxrs:3.1.15" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-core:3.1.15" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" />
+          <element id="library" level="project" name="Maven: org.apache.ws.xmlschema:xmlschema-core:2.2.3" />
+          <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-transports-http:3.1.15" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-rs-extension-providers:3.1.15" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-rs-client:3.1.15" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-rs-security-cors:3.1.15" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.11.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.10" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.8.11" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.8.11" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.11" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.15.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.15.RELEASE" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/essentials/target/essentials/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="testingexample-essentials/web/Web" />
+    </root>
+  </artifact>
+</component>

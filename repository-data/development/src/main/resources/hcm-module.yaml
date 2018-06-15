@@ -1,0 +1,7 @@
+group: 
+  name: testingexample
+  after: hippo-cms
+project: testingexample
+module: 
+  name: testingexample-repository-data-development
+  after: testingexample-repository-data-application

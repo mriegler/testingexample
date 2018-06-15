@@ -1,0 +1,5 @@
+group: 
+  name: testingexample
+  after: hippo-cms
+project: testingexample
+module: testingexample-repository-data-webfiles
