@@ -20,3 +20,6 @@ definitions:
       /contentlist-main-contentlist:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/hstdefault/contentlist-main-contentlist.ftl
+      /cool-component:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/testingexample/cool-component.ftl

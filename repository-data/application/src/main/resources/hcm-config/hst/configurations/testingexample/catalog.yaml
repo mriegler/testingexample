@@ -4,3 +4,8 @@ definitions:
       jcr:primaryType: hst:catalog
       /testingexample-catalog:
         jcr:primaryType: hst:containeritempackage
+        /CoolComponent:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: coolComponent
+          hst:template: cool-component
+          hst:xtype: HST.Item

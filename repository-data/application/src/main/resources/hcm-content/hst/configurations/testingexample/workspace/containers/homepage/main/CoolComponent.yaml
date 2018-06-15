@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/testingexample/hst:workspace/hst:containers/homepage/main/CoolComponent:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: coolComponent
+  hst:template: cool-component
+  hst:xtype: HST.Item
