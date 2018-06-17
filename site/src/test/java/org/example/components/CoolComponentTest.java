@@ -68,7 +68,7 @@ class CoolComponentTest {
     }
 
     @Test
-    void testStuff() throws JsonProcessingException {
+    void testRenderWithRestApi() throws JsonProcessingException {
         List<WeatherInfo> weatherInfos = new ArrayList<>();
         weatherInfos.add(new WeatherInfo(0, "asd", "asd", "asd"));
         MainWeatherInfo mainInfo = new MainWeatherInfo(22.0f, 123, 123);
@@ -85,11 +85,10 @@ class CoolComponentTest {
         final CoolComponent bean = applicationContext.getBean(CoolComponent.class);
         final MockHstRequest mockHstRequest = new MockHstRequest();
         mockHstRequest.setRemoteAddr("123.123.123.123");
+        mockHstRequest.setRemoteHost("host");
+        mockHstRequest.setRemoteUser("user");
         bean.doBeforeRender(mockHstRequest, new MockHstResponse());
-        final Enumeration<String> attributeNames = mockHstRequest.getAttributeNames();
-        while(attributeNames.hasMoreElements()) {
-            log.info("attribute manme: {}", attributeNames.nextElement());
-        }
+
         assertTrue(Objects.nonNull(mockHstRequest.getAttribute("cool")));
         assertTrue(Objects.nonNull(mockHstRequest.getAttribute("weatherInformation")));
     }

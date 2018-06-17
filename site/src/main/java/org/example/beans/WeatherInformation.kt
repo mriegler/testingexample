@@ -20,14 +20,14 @@ import com.fasterxml.jackson.annotation.JsonProperty
 @JsonIgnoreProperties(ignoreUnknown = true)
 data class WeatherInformation(
     val name: String,
-    val id: Integer,
+    val id: Int,
     val weather: List<WeatherInfo>,
     val main: MainWeatherInfo,
     val rain: RainVolume?
 )
 
 data class WeatherInfo(
-    val id: Integer,
+    val id: Int,
     val main: String,
     val description: String,
     val icon: String
@@ -36,12 +36,12 @@ data class WeatherInfo(
 @JsonIgnoreProperties(ignoreUnknown = true)
 data class MainWeatherInfo(
     val temp: Float,
-    val humidity: Integer,
-    val pressure: Integer
+    val humidity: Int,
+    val pressure: Int
 )
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 data class RainVolume(
     @JsonProperty("3h")
-    val threeHours: Integer
+    val threeHours: Int
 )
