@@ -72,15 +72,29 @@ class CoolComponentTest {
         List<WeatherInfo> weatherInfos = new ArrayList<>();
         weatherInfos.add(new WeatherInfo(0, "asd", "asd", "asd"));
         MainWeatherInfo mainInfo = new MainWeatherInfo(22.0f, 123, 123);
-        final WeatherInformation weatherInformation = new WeatherInformation("asd", 1, weatherInfos, mainInfo, new RainVolume(3));
-        final LocationInformation locationInformation = new LocationInformation("123.123.123.123",
+        final WeatherInformation weatherInformation = new WeatherInformation(
+                "asd",
+                1,
+                weatherInfos,
+                mainInfo,
+                new RainVolume(3)
+        );
+        final LocationInformation locationInformation = new LocationInformation(
+                "123.123.123.123",
                 "Test City",
-                "asd", 22f, 22f, "US");
+                "asd",
+                22f,
+                22f,
+                "US"
+        );
         wireMockServer.stubFor(get(urlEqualTo("/123.123.123.123/json"))
-        .willReturn(
+                .willReturn(
                         okJson(mapper
                                 .writeValueAsString(locationInformation))));
-        wireMockServer.givenThat(get(urlMatching("/.*lat=.*")).willReturn(okJson(mapper.writeValueAsString(weatherInformation))));
+        wireMockServer.givenThat(get(urlMatching("/.*lat=.*"))
+                .willReturn(okJson(mapper
+                        .writeValueAsString(weatherInformation))));
+
         log.info("request ctx {}", RequestContextProvider.get());
         final CoolComponent bean = applicationContext.getBean(CoolComponent.class);
         final MockHstRequest mockHstRequest = new MockHstRequest();

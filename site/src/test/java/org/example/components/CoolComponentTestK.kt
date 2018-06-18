@@ -103,10 +103,10 @@ internal class CoolComponentTestK(val mapper: ObjectMapper, val applicationConte
             bean.doBeforeRender(mockHstRequest, MockHstResponse())
 
             "set the correct attributes" {
-                mockHstRequest.getAttribute("cool").shouldNotBe(null)
+                mockHstRequest.getAttribute("cool") shouldNotBe null
                 mockHstRequest.getAttribute("weatherInformation").let {
                     shouldNotBe(null)
-                    (it as WeatherInformation).shouldBe(weatherInformation)
+                    (it as WeatherInformation) shouldBe weatherInformation
                 }
             }
         }
