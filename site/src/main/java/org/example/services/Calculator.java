@@ -7,9 +7,9 @@ import java.util.List;
 public class Calculator {
     private List<Integer> numbers = new ArrayList<>();
 
-    private Double lastResult;
+    private Integer lastResult;
 
-    public Double getLastResult() {
+    public Integer getLastResult() {
         if (lastResult == null) {
             throw new IllegalStateException("there is no last result");
         }
@@ -29,10 +29,10 @@ public class Calculator {
 
         switch(operation) {
             case "+":
-                lastResult = (double) (numbers.get(0) + numbers.get(1));
+                lastResult = (numbers.get(0) + numbers.get(1));
                 break;
             case "*":
-                lastResult = (double) (numbers.get(0) * numbers.get(1));
+                lastResult = (numbers.get(0) * numbers.get(1));
                 break;
             default:
                 throw new InvalidParameterException("got unknown operator");
