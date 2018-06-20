@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo Build started on `date`
+      - mvn verify
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - mvn package -Pdist
+artifacts:
+  files:
+    - target/testingexample-*-distribution.tar.gz
